@@ -1,0 +1,11 @@
+# Escludere file wp-config
+wp-config.php
+
+# Escludere la directory di caricamenti
+wp-content/uploads/
+
+# Escludere file di aggiornamento
+wp-content/upgrade/
+
+# Escludere file di log
+*.log

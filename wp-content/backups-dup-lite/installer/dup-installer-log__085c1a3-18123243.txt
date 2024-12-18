@@ -1,0 +1,1527 @@
+********************************************************************************
+* DUPLICATOR LITE: Install-Log
+* STEP-0 START @ 01:31:45
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+PACKAGE INFO________ ORIGINAL SERVER                        |CURRENT SERVER
+OS__________________: WINNT                                 |WINNT
+PHP VERSION_________: 8.0.30                                |8.2.12
+********************************************************************************
+CURRENT SERVER INFO
+PHP_________________: 8.2.12 | SAPI: apache2handler
+PHP MEMORY__________: 4294967296 | SUHOSIN: disabled
+ARCHITECTURE________: 64-bit
+SERVER______________: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.2.12
+DOC ROOT____________: "C:/xampp/htdocs/gamenect_tesi"
+REQUEST URL_________: "http://localhost/gamenect_tesi"
+********************************************************************************
+OVERWRITE PARAMS
+ *** FROM PACKAGE
+PARAM SET KEY[blogname]
+********************************************************************************
+MAINTENANCE MODE DISABLE
+INSTALLER INFO
+
+TEMPLATE____________: "base"
+SECURE MODE_________: "none"
+URL PLUGINS_________: http://localhost/gamenect/wp-content/plugins
+VALIDATE ON START___: "normal"
+PATH_NEW____________: "C:/xampp/htdocs/gamenect_tesi"
+URL_NEW_____________: "http://localhost/gamenect_tesi"
+********************************************************************************
+ARCHIVE INFO
+
+ARCHIVE NAME________: "C:/xampp/htdocs/gamenect_tesi/20241018backup_gamenect_DEFINITIVO_[HASH]_20241018123243_archive.zip"
+ARCHIVE SIZE________: 70.19MB
+CREATED_____________: 2024-10-18 12:32:43
+WP VERSION__________: 6.6.2
+DUP VERSION_________: 1.5.10.2
+LICENSE_____________: Free version
+DB VERSION__________: 10.4.32
+DB FILE SIZE________: 15.3MB
+DB TABLES___________: 135
+DB ROWS_____________: 2700
+URL HOME____________: http://localhost/gamenect
+URL CORE____________: http://localhost/gamenect
+URL CONTENT_________: http://localhost/gamenect/wp-content
+URL UPLOAD__________: http://localhost/gamenect/wp-content/uploads
+URL PLUGINS_________: http://localhost/gamenect/wp-content/plugins
+URL MU PLUGINS______: http://localhost/gamenect/wp-content/mu-plugins
+URL THEMES__________: http://localhost/gamenect/wp-content/themes
+PATH HOME___________: C:/xampp/htdocs/gamenect
+PATH ABS____________: C:/xampp/htdocs/gamenect
+PATH WPCONFIG_______: C:/xampp/htdocs/gamenect
+PATH WPCONTENT______: C:/xampp/htdocs/gamenect/wp-content
+PATH UPLOADS________: C:/xampp/htdocs/gamenect/wp-content/uploads
+PATH PLUGINS________: C:/xampp/htdocs/gamenect/wp-content/plugins
+PATH MUPLUGINS______: C:/xampp/htdocs/gamenect/wp-content/mu-plugins
+PATH THEMES_________: C:/xampp/htdocs/gamenect/wp-content/themes
+
+SUBSITES
+SUBSITE [ID:   1] "localhost/gamenect/"
+
+PLUGINS
+PLUGIN [SLUG:akismet/akismet.php                               ][ON:false]  Akismet Anti-spam: Spam Protection
+PLUGIN [SLUG:better-search/better-search.php                   ][ON:true ]  Better Search
+PLUGIN [SLUG:buddypress/bp-loader.php                          ][ON:true ]  BuddyPress
+PLUGIN [SLUG:content-control/content-control.php               ][ON:true ]  Content Control
+PLUGIN [SLUG:duplicator/duplicator.php                         ][ON:true ]  Duplicator
+PLUGIN [SLUG:hashtag/hashtag.php                               ][ON:true ]  Hashtag
+PLUGIN [SLUG:kirki/kirki.php                                   ][ON:true ]  Kirki Customizer Framework
+PLUGIN [SLUG:loco-translate/loco.php                           ][ON:true ]  Loco Translate
+PLUGIN [SLUG:menu-icons/menu-icons.php                         ][ON:true ]  Menu Icons
+PLUGIN [SLUG:custom-registration-form-builder-with-submission-manager/registration_magic.php][ON:true ]  RegistrationMagic
+PLUGIN [SLUG:buddypress-member-blog/buddypress-member-blog.php ][ON:true ]  Wbcom Designs - BuddyPress Member Blog
+PLUGIN [SLUG:custom-font-uploader/custom-font-uploader.php     ][ON:true ]  Wbcom Designs - Custom Font Uploader
+PLUGIN [SLUG:youzify/youzify.php                               ][ON:true ]  Youzify
+
+********************************************************************************
+LOG-TIME[C:\xampp\htdocs\gamenect_tesi\dup-installer\ctrls\ctrl.base.php:227][DELTA:   2.79534]  MESSAGE:END RENDER PAGE
+LOG-TIME[C:\xampp\htdocs\gamenect_tesi\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [sparam_s1] START
+AJAX ACTION [sparam_s1] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\gamenect_tesi\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+STEP ACTION: "on-validate"
+LOG-TIME[C:\xampp\htdocs\gamenect_tesi\dup-installer\ctrls\ctrl.base.php:227][DELTA:   2.66130]  MESSAGE:END RENDER PAGE
+LOG-TIME[C:\xampp\htdocs\gamenect_tesi\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [validate] START
+START TEST "Archive Check" [CLASS: DUPX_Validation_test_archive_check]
+LOG-TIME[DELTA:   0.00118]  MESSAGE:TEST "Archive Check" RESULT: passed
+
+START TEST "Duplicator importer version" [CLASS: DUPX_Validation_test_importer_version]
+LOG-TIME[DELTA:   0.00007]  MESSAGE:TEST "Duplicator importer version" RESULT: skip
+
+START TEST "Overwrite Install" [CLASS: DUPX_Validation_test_owrinstall]
+LOG-TIME[DELTA:   0.00006]  MESSAGE:TEST "Overwrite Install" RESULT: skip
+
+START TEST "Recovery Point" [CLASS: DUPX_Validation_test_recovery]
+LOG-TIME[DELTA:   0.00007]  MESSAGE:TEST "Recovery Point" RESULT: skip
+
+START TEST "Package is Importable" [CLASS: DUPX_Validation_test_importable]
+LOG-TIME[DELTA:   0.00006]  MESSAGE:TEST "Package is Importable" RESULT: skip
+
+START TEST "REST API test" [CLASS: DUPX_Validation_test_rest_api]
+LOG-TIME[DELTA:   0.00004]  MESSAGE:TEST "REST API test" RESULT: skip
+
+START TEST "Manual extraction detected" [CLASS: DUPX_Validation_test_manual_extraction]
+LOG-TIME[DELTA:   0.00006]  MESSAGE:TEST "Manual extraction detected" RESULT: good
+
+START TEST "Database Only" [CLASS: DUPX_Validation_test_dbonly_iswordpress]
+LOG-TIME[DELTA:   0.00007]  MESSAGE:TEST "Database Only" RESULT: skip
+
+START TEST "Package Age" [CLASS: DUPX_Validation_test_package_age]
+LOG-TIME[DELTA:   0.00031]  MESSAGE:TEST "Package Age" RESULT: good
+
+START TEST "Package Size" [CLASS: DUPX_Validation_test_package_size]
+LOG-TIME[DELTA:   0.00064]  MESSAGE:TEST "Package Size" RESULT: good
+
+START TEST "Replace PATHs in database" [CLASS: DUPX_Validation_test_replace_paths]
+LOG-TIME[DELTA:   0.00007]  MESSAGE:TEST "Replace PATHs in database" RESULT: skip
+
+START TEST "Managed hosting supported" [CLASS: DUPX_Validation_test_managed_supported]
+LOG-TIME[DELTA:   0.00098]  MESSAGE:TEST "Managed hosting supported" RESULT: skip
+
+START TEST "Siteground" [CLASS: DUPX_Validation_test_siteground]
+LOG-TIME[DELTA:   0.00028]  MESSAGE:TEST "Siteground" RESULT: skip
+
+START TEST "Addon Sites" [CLASS: DUPX_Validation_test_addon_sites]
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/gamenect_tesi"
+--------------------------------------
+LOG-TIME[DELTA:   0.35820]  MESSAGE:TEST "Addon Sites" RESULT: good
+
+START TEST "Wordfence" [CLASS: DUPX_Validation_test_wordfence]
+LOG-TIME[DELTA:   0.00237]  MESSAGE:TEST "Wordfence" RESULT: good
+
+START TEST "Table prefix of managed hosting" [CLASS: DUPX_Validation_test_managed_tprefix]
+LOG-TIME[DELTA:   0.00101]  MESSAGE:TEST "Table prefix of managed hosting" RESULT: skip
+
+START TEST "PHP Version Mismatch" [CLASS: DUPX_Validation_test_php_version]
+LOG-TIME[DELTA:   0.00011]  MESSAGE:TEST "PHP Version Mismatch" RESULT: good
+
+START TEST "PHP Open Base" [CLASS: DUPX_Validation_test_open_basedir]
+LOG-TIME[DELTA:   0.00006]  MESSAGE:TEST "PHP Open Base" RESULT: good
+
+START TEST "PHP Memory Limit" [CLASS: DUPX_Validation_test_memory_limit]
+LOG-TIME[DELTA:   0.00012]  MESSAGE:TEST "PHP Memory Limit" RESULT: good
+
+START TEST "PHP Extensions" [CLASS: DUPX_Validation_test_extensions]
+LOG-TIME[DELTA:   0.00006]  MESSAGE:TEST "PHP Extensions" RESULT: good
+
+START TEST "PHP Mysqli" [CLASS: DUPX_Validation_test_mysql_connect]
+LOG-TIME[DELTA:   0.00005]  MESSAGE:TEST "PHP Mysqli" RESULT: passed
+
+START TEST "PHP Tokenizer" [CLASS: DUPX_Validation_test_tokenizer]
+LOG-TIME[DELTA:   0.00020]  MESSAGE:TEST "PHP Tokenizer" RESULT: passed
+
+START TEST "PHP Timeout" [CLASS: DUPX_Validation_test_timeout]
+LOG-TIME[DELTA:   0.00008]  MESSAGE:TEST "PHP Timeout" RESULT: good
+
+START TEST "Disk Space" [CLASS: DUPX_Validation_test_disk_space]
+LOG-TIME[DELTA:   0.01866]  MESSAGE:TEST "Disk Space" RESULT: good
+
+START TEST "Permissions: General" [CLASS: DUPX_Validation_test_iswritable]
+LOG-TIME[DELTA:   0.14630]  MESSAGE:TEST "Permissions: General" RESULT: passed
+
+START TEST "Permissions: Configs Files " [CLASS: DUPX_Validation_test_iswritable_configs]
+LOG-TIME[DELTA:   0.00261]  MESSAGE:TEST "Permissions: Configs Files " RESULT: passed
+
+START TEST "Host Name" [CLASS: DUPX_Validation_test_db_host_name]
+LOG-TIME[DELTA:   0.00010]  MESSAGE:TEST "Host Name" RESULT: passed
+
+START TEST "Host Connection" [CLASS: DUPX_Validation_test_db_connection]
+LOG-TIME[DELTA:   0.00335]  MESSAGE:TEST "Host Connection" RESULT: passed
+
+START TEST "Database Version" [CLASS: DUPX_Validation_test_db_version]
+LOG-TIME[DELTA:   0.00588]  MESSAGE:TEST "Database Version" RESULT: passed
+
+START TEST "Create New Database" [CLASS: DUPX_Validation_test_db_create]
+LOG-TIME[DELTA:   0.00008]  MESSAGE:TEST "Create New Database" RESULT: skip
+
+START TEST "Database Engine Support" [CLASS: DUPX_Validation_test_db_supported_engine]
+LOG-TIME[DELTA:   0.00065]  MESSAGE:TEST "Database Engine Support" RESULT: passed
+
+START TEST "Database GTID Mode" [CLASS: DUPX_Validation_test_db_gtid_mode]
+LOG-TIME[DELTA:   0.00046]  MESSAGE:TEST "Database GTID Mode" RESULT: passed
+
+START TEST "Privileges: User Visibility" [CLASS: DUPX_Validation_test_db_visibility]
+LOG-TIME[DELTA:   0.00126]  MESSAGE:TEST "Privileges: User Visibility" RESULT: passed
+
+START TEST "Manual Table Check" [CLASS: DUPX_Validation_test_db_manual_tabels_count]
+LOG-TIME[DELTA:   0.00007]  MESSAGE:TEST "Manual Table Check" RESULT: skip
+
+START TEST "Multiple WordPress Installs" [CLASS: DUPX_Validation_test_db_multiple_wp_installs]
+LOG-TIME[DELTA:   0.00355]  MESSAGE:TEST "Multiple WordPress Installs" RESULT: passed
+
+START TEST "Privileges: User Resources" [CLASS: DUPX_Validation_test_db_user_resources]
+LOG-TIME[DELTA:   0.00680]  MESSAGE:TEST "Privileges: User Resources" RESULT: passed
+
+START TEST "Privileges: User Table Access" [CLASS: DUPX_Validation_test_db_user_perms]
+LOG-TIME[DELTA:   0.07740]  MESSAGE:TEST "Privileges: User Table Access" RESULT: passed
+
+START TEST "Privileges: 'Show Variables' Query" [CLASS: DUPX_Validation_test_db_custom_queries]
+LOG-TIME[DELTA:   0.00192]  MESSAGE:TEST "Privileges: 'Show Variables' Query" RESULT: passed
+
+START TEST "Source Database Triggers" [CLASS: DUPX_Validation_test_db_triggers]
+LOG-TIME[DELTA:   0.00008]  MESSAGE:TEST "Source Database Triggers" RESULT: passed
+
+START TEST "Character Set and Collation Support" [CLASS: DUPX_Validation_test_db_supported_default_charset]
+LOG-TIME[DELTA:   0.00305]  MESSAGE:TEST "Character Set and Collation Support" RESULT: passed
+
+START TEST "Character Set and  Collation Capability" [CLASS: DUPX_Validation_test_db_supported_charset]
+LOG-TIME[DELTA:   0.00019]  MESSAGE:TEST "Character Set and  Collation Capability" RESULT: passed
+
+START TEST "Tables Case Sensitivity" [CLASS: DUPX_Validation_test_db_case_sensitive_tables]
+LOG-TIME[DELTA:   0.00007]  MESSAGE:TEST "Tables Case Sensitivity" RESULT: skip
+
+START TEST "Tables Flagged for Removal or Backup" [CLASS: DUPX_Validation_test_db_affected_tables]
+LOG-TIME[DELTA:   0.00263]  MESSAGE:TEST "Tables Flagged for Removal or Backup" RESULT: passed
+
+START TEST "Prefix too long" [CLASS: DUPX_Validation_test_db_prefix_too_long]
+LOG-TIME[DELTA:   0.00065]  MESSAGE:TEST "Prefix too long" RESULT: passed
+
+START TEST "Database cleanup" [CLASS: DUPX_Validation_test_db_cleanup]
+LOG-TIME[DELTA:   0.00005]  MESSAGE:TEST "Database cleanup" RESULT: skip
+
+
+CTRL PARAMS AFTER VALIDATION
+AJAX ACTION [validate] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\gamenect_tesi\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [proceed_confirm_dialog] START
+AJAX ACTION [proceed_confirm_dialog] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\gamenect_tesi\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [sparam_s1] START
+AJAX ACTION [sparam_s1] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\gamenect_tesi\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+INITIALIZE FILTERS
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/gamenect_tesi"
+--------------------------------------
+********************************************************************************
+* DUPLICATOR LITE: Install-Log
+* STEP-1 START @ 01:33:01
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+INSTALL TYPE________: single site
+BLOG NAME___________: "GameNect"
+HOME URL NEW________: "http://localhost/gamenect_tesi"
+SITE URL NEW________: "http://localhost/gamenect_tesi"
+CONTENT URL NEW_____: "http://localhost/gamenect_tesi/wp-content"
+UPLOAD URL NEW______: "http://localhost/gamenect_tesi/wp-content/uploads"
+PLUGINS URL NEW_____: "http://localhost/gamenect_tesi/wp-content/plugins"
+MUPLUGINS URL NEW___: "http://localhost/gamenect_tesi/wp-content/mu-plugins"
+HOME PATH NEW_______: "C:/xampp/htdocs/gamenect_tesi"
+SITE PATH NEW_______: "C:/xampp/htdocs/gamenect_tesi"
+CONTENT PATH NEW____: "C:/xampp/htdocs/gamenect_tesi/wp-content"
+UPLOAD PATH NEW_____: "C:/xampp/htdocs/gamenect_tesi/wp-content/uploads"
+PLUGINS PATH NEW____: "C:/xampp/htdocs/gamenect_tesi/wp-content/plugins"
+MUPLUGINS PATH NEW__: "C:/xampp/htdocs/gamenect_tesi/wp-content/mu-plugins"
+ARCHIVE ACTION______: "donothing"
+SKIP WP FILES_______: "none"
+ARCHIVE ENGINE______: "ziparchivechunking"
+SET DIR PERMS_______: false
+DIR PERMS VALUE_____: 0755
+SET FILE PERMS______: false
+FILE PERMS VALUE____: 0644
+SAFE MODE___________: 0
+LOGGING_____________: 1
+ZIP THROTTLING______: false
+WP CONFIG___________: "modify"
+HTACCESS CONFIG_____: "new"
+OTHER CONFIG________: "new"
+FILE TIME___________: "current"
+********************************************************************************
+
+REMOVE FILTERS
+	DIR : "C:/xampp/htdocs/gamenect_tesi/dup-installer"
+	FILE: "C:/xampp/htdocs/gamenect_tesi/20241018backup_gamenect_DEFINITIVO_[HASH]_20241018123243_installer-backup.php"
+	FILE: "C:/xampp/htdocs/gamenect_tesi/20241018backup_gamenect_DEFINITIVO_[HASH]_20241018123243_archive.zip"
+	FILE: "C:/xampp/htdocs/gamenect_tesi/installer.php"
+	FILE: "C:/xampp/htdocs/gamenect_tesi/dup-installer-bootlog__085c1a3-18123243.txt"
+EXTRACTION FILTERS
+	DIR : "dup-installer"
+	FILE: "20241018backup_gamenect_DEFINITIVO_[HASH]_20241018123243_installer-backup.php"
+--------------------------------------
+
+
+EXTRACTION: ZIP CHUNKING >>> START
+MAINTENANCE MODE ENABLE
+BEFORE EXTRACION ACTIONS
+
+*** RESET CONFIG FILES IN CURRENT HOSTING >>> START
+
+*** RESET CONFIG FILES IN CURRENT HOSTING >>> END
+MAINTENANCE MODE ENABLE
+
+*** CREATE FOLDER AND PERMISSION PREPARE
+FOLDER PREPARE DONE
+ARCHIVE OFFSET 0
+CHUNK COMPLETE - RUNTIME: 5.0094 sec. - Files processed: 279 of 10,817
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\gamenect_tesi\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 279
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/gamenect_tesi"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0110 sec. - Files processed: 2,010 of 10,817
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\gamenect_tesi\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 2010
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/gamenect_tesi"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0136 sec. - Files processed: 3,122 of 10,817
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\gamenect_tesi\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 3122
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/gamenect_tesi"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0102 sec. - Files processed: 4,230 of 10,817
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\gamenect_tesi\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 4230
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/gamenect_tesi"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0109 sec. - Files processed: 5,463 of 10,817
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\gamenect_tesi\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 5463
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/gamenect_tesi"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0123 sec. - Files processed: 6,562 of 10,817
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\gamenect_tesi\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 6562
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/gamenect_tesi"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0123 sec. - Files processed: 7,691 of 10,817
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\gamenect_tesi\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 7691
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/gamenect_tesi"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0086 sec. - Files processed: 8,777 of 10,817
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\gamenect_tesi\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 8777
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/gamenect_tesi"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0220 sec. - Files processed: 9,986 of 10,817
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\gamenect_tesi\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 9986
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/gamenect_tesi"
+--------------------------------------
+FILE EXTRACTION: done processing last file in list of 11424
+
+EXTRACTION: ZIP CHUNKING >>> DONE
+
+EXTRACTION COMPLETE @ 01:33:55 - RUNTIME: 54.0128 sec. - Files processed: 10,817 of 10,817
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\gamenect_tesi\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [dbinstall] START
+ADD PREFIX META MAP ID 0 wp_woong
+
+
+
+********************************************************************************
+* DUPLICATOR LITE: INSTALL-LOG
+* STEP-2 START @ 01:33:55
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+DB ENGINE___________: "chunk"
+VIEW MODE___________: "basic"
+DB ACTION___________: "empty"
+DB HOST_____________: "**OBSCURED**"
+DB NAME_____________: "**OBSCURED**"
+DB PASS_____________: "**OBSCURED**"
+DB PORT_____________: "**OBSCURED**"
+USER MODE___________: "overwrite"
+TABLE PREFIX________: "wp_woong"
+MYSQL MODE__________: "DEFAULT"
+MYSQL MODE OPTS_____: ""
+CHARSET_____________: "utf8mb4"
+COLLATE_____________: ""
+CUNKING_____________: true
+VIEW CREATION_______: true
+STORED PROCEDURE____: true
+FUNCTIONS___________: true
+REMOVE DEFINER______: false
+SPLIT CREATES_______: true
+--------------------------------------
+TABLES
+--------------------------------------
+TABLE "wp_woongactionscheduler_actions"_________________[ROWS:      29] [EXTRACT|REPLACE] [INST NAME: wp_woongactionscheduler_actions]
+TABLE "wp_woongactionscheduler_claims"__________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_woongactionscheduler_claims]
+TABLE "wp_woongactionscheduler_groups"__________________[ROWS:       5] [EXTRACT|REPLACE] [INST NAME: wp_woongactionscheduler_groups]
+TABLE "wp_woongactionscheduler_logs"____________________[ROWS:      70] [EXTRACT|REPLACE] [INST NAME: wp_woongactionscheduler_logs]
+TABLE "wp_woongbp_activity"_____________________________[ROWS:      44] [EXTRACT|REPLACE] [INST NAME: wp_woongbp_activity]
+TABLE "wp_woongbp_activity_meta"________________________[ROWS:       6] [EXTRACT|REPLACE] [INST NAME: wp_woongbp_activity_meta]
+TABLE "wp_woongbp_friends"______________________________[ROWS:       4] [EXTRACT|REPLACE] [INST NAME: wp_woongbp_friends]
+TABLE "wp_woongbp_groups"_______________________________[ROWS:       3] [EXTRACT|REPLACE] [INST NAME: wp_woongbp_groups]
+TABLE "wp_woongbp_groups_groupmeta"_____________________[ROWS:       9] [EXTRACT|REPLACE] [INST NAME: wp_woongbp_groups_groupmeta]
+TABLE "wp_woongbp_groups_members"_______________________[ROWS:      10] [EXTRACT|REPLACE] [INST NAME: wp_woongbp_groups_members]
+TABLE "wp_woongbp_invitations"__________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_woongbp_invitations]
+TABLE "wp_woongbp_messages_messages"____________________[ROWS:       7] [EXTRACT|REPLACE] [INST NAME: wp_woongbp_messages_messages]
+TABLE "wp_woongbp_messages_meta"________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_woongbp_messages_meta]
+TABLE "wp_woongbp_messages_notices"_____________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_woongbp_messages_notices]
+TABLE "wp_woongbp_messages_recipients"__________________[ROWS:       8] [EXTRACT|REPLACE] [INST NAME: wp_woongbp_messages_recipients]
+TABLE "wp_woongbp_notifications"________________________[ROWS:      19] [EXTRACT|REPLACE] [INST NAME: wp_woongbp_notifications]
+TABLE "wp_woongbp_notifications_meta"___________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_woongbp_notifications_meta]
+TABLE "wp_woongbp_optouts"______________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_woongbp_optouts]
+TABLE "wp_woongbp_user_blogs"___________________________[ROWS:       5] [EXTRACT|REPLACE] [INST NAME: wp_woongbp_user_blogs]
+TABLE "wp_woongbp_user_blogs_blogmeta"__________________[ROWS:      10] [EXTRACT|REPLACE] [INST NAME: wp_woongbp_user_blogs_blogmeta]
+TABLE "wp_woongbp_xprofile_data"________________________[ROWS:       6] [EXTRACT|REPLACE] [INST NAME: wp_woongbp_xprofile_data]
+TABLE "wp_woongbp_xprofile_fields"______________________[ROWS:       2] [EXTRACT|REPLACE] [INST NAME: wp_woongbp_xprofile_fields]
+TABLE "wp_woongbp_xprofile_groups"______________________[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: wp_woongbp_xprofile_groups]
+TABLE "wp_woongbp_xprofile_meta"________________________[ROWS:      14] [EXTRACT|REPLACE] [INST NAME: wp_woongbp_xprofile_meta]
+TABLE "wp_woongbsearch"_________________________________[ROWS:       3] [EXTRACT|REPLACE] [INST NAME: wp_woongbsearch]
+TABLE "wp_woongbsearch_backup"__________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_woongbsearch_backup]
+TABLE "wp_woongbsearch_daily"___________________________[ROWS:       3] [EXTRACT|REPLACE] [INST NAME: wp_woongbsearch_daily]
+TABLE "wp_woongbsearch_daily_backup"____________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_woongbsearch_daily_backup]
+TABLE "wp_woongcommentmeta"_____________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_woongcommentmeta]
+TABLE "wp_woongcomments"________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_woongcomments]
+TABLE "wp_woongduplicator_packages"_____________________[ROWS:       3] [EXTRACT|REPLACE] [INST NAME: wp_woongduplicator_packages]
+TABLE "wp_woongeasywpsmtp_debug_events"_________________[ROWS:       2] [EXTRACT|REPLACE] [INST NAME: wp_woongeasywpsmtp_debug_events]
+TABLE "wp_woongeasywpsmtp_tasks_meta"___________________[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: wp_woongeasywpsmtp_tasks_meta]
+TABLE "wp_woonge_events"________________________________[ROWS:      14] [EXTRACT|REPLACE] [INST NAME: wp_woonge_events]
+TABLE "wp_woonglinks"___________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_woonglinks]
+TABLE "wp_woongmailpoet_automations"____________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_woongmailpoet_automations]
+TABLE "wp_woongmailpoet_automation_runs"________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_woongmailpoet_automation_runs]
+TABLE "wp_woongmailpoet_automation_run_logs"____________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_woongmailpoet_automation_run_logs]
+TABLE "wp_woongmailpoet_automation_run_subjects"________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_woongmailpoet_automation_run_subjects]
+TABLE "wp_woongmailpoet_automation_triggers"____________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_woongmailpoet_automation_triggers]
+TABLE "wp_woongmailpoet_automation_versions"____________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_woongmailpoet_automation_versions]
+TABLE "wp_woongmailpoet_custom_fields"__________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_woongmailpoet_custom_fields]
+TABLE "wp_woongmailpoet_dynamic_segment_filters"________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_woongmailpoet_dynamic_segment_filters]
+TABLE "wp_woongmailpoet_feature_flags"__________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_woongmailpoet_feature_flags]
+TABLE "wp_woongmailpoet_forms"__________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_woongmailpoet_forms]
+TABLE "wp_woongmailpoet_log"____________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_woongmailpoet_log]
+TABLE "wp_woongmailpoet_migrations"_____________________[ROWS:      26] [EXTRACT|REPLACE] [INST NAME: wp_woongmailpoet_migrations]
+TABLE "wp_woongmailpoet_newsletters"____________________[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: wp_woongmailpoet_newsletters]
+TABLE "wp_woongmailpoet_newsletter_links"_______________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_woongmailpoet_newsletter_links]
+TABLE "wp_woongmailpoet_newsletter_option"______________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_woongmailpoet_newsletter_option]
+TABLE "wp_woongmailpoet_newsletter_option_fields"_______[ROWS:      31] [EXTRACT|REPLACE] [INST NAME: wp_woongmailpoet_newsletter_option_fields]
+TABLE "wp_woongmailpoet_newsletter_posts"_______________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_woongmailpoet_newsletter_posts]
+TABLE "wp_woongmailpoet_newsletter_segment"_____________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_woongmailpoet_newsletter_segment]
+TABLE "wp_woongmailpoet_newsletter_templates"___________[ROWS:      76] [EXTRACT|REPLACE] [INST NAME: wp_woongmailpoet_newsletter_templates]
+TABLE "wp_woongmailpoet_scheduled_tasks"________________[ROWS:      15] [EXTRACT|REPLACE] [INST NAME: wp_woongmailpoet_scheduled_tasks]
+TABLE "wp_woongmailpoet_scheduled_task_subscribers"_____[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_woongmailpoet_scheduled_task_subscribers]
+TABLE "wp_woongmailpoet_segments"_______________________[ROWS:       3] [EXTRACT|REPLACE] [INST NAME: wp_woongmailpoet_segments]
+TABLE "wp_woongmailpoet_sending_queues"_________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_woongmailpoet_sending_queues]
+TABLE "wp_woongmailpoet_settings"_______________________[ROWS:      24] [EXTRACT|REPLACE] [INST NAME: wp_woongmailpoet_settings]
+TABLE "wp_woongmailpoet_statistics_bounces"_____________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_woongmailpoet_statistics_bounces]
+TABLE "wp_woongmailpoet_statistics_clicks"______________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_woongmailpoet_statistics_clicks]
+TABLE "wp_woongmailpoet_statistics_forms"_______________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_woongmailpoet_statistics_forms]
+TABLE "wp_woongmailpoet_statistics_newsletters"_________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_woongmailpoet_statistics_newsletters]
+TABLE "wp_woongmailpoet_statistics_opens"_______________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_woongmailpoet_statistics_opens]
+TABLE "wp_woongmailpoet_statistics_unsubscribes"________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_woongmailpoet_statistics_unsubscribes]
+TABLE "wp_woongmailpoet_statistics_woocommerce_purchases"[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_woongmailpoet_statistics_woocommerce_purchases]
+TABLE "wp_woongmailpoet_stats_notifications"____________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_woongmailpoet_stats_notifications]
+TABLE "wp_woongmailpoet_subscribers"____________________[ROWS:       3] [EXTRACT|REPLACE] [INST NAME: wp_woongmailpoet_subscribers]
+TABLE "wp_woongmailpoet_subscriber_custom_field"________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_woongmailpoet_subscriber_custom_field]
+TABLE "wp_woongmailpoet_subscriber_ips"_________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_woongmailpoet_subscriber_ips]
+TABLE "wp_woongmailpoet_subscriber_segment"_____________[ROWS:       3] [EXTRACT|REPLACE] [INST NAME: wp_woongmailpoet_subscriber_segment]
+TABLE "wp_woongmailpoet_subscriber_tag"_________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_woongmailpoet_subscriber_tag]
+TABLE "wp_woongmailpoet_tags"___________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_woongmailpoet_tags]
+TABLE "wp_woongmailpoet_user_agents"____________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_woongmailpoet_user_agents]
+TABLE "wp_woongmailpoet_user_flags"_____________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_woongmailpoet_user_flags]
+TABLE "wp_woongoptions"_________________________________[ROWS:     966] [EXTRACT|REPLACE] [INST NAME: wp_woongoptions]
+TABLE "wp_woongpostmeta"________________________________[ROWS:     275] [EXTRACT|REPLACE] [INST NAME: wp_woongpostmeta]
+TABLE "wp_woongposts"___________________________________[ROWS:     299] [EXTRACT|REPLACE] [INST NAME: wp_woongposts]
+TABLE "wp_woongppc_exceptions"__________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_woongppc_exceptions]
+TABLE "wp_woongppc_exception_items"_____________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_woongppc_exception_items]
+TABLE "wp_woongppc_roles"_______________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_woongppc_roles]
+TABLE "wp_woongppi_errors"______________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_woongppi_errors]
+TABLE "wp_woongppi_imported"____________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_woongppi_imported]
+TABLE "wp_woongppi_runs"________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_woongppi_runs]
+TABLE "wp_woongpp_groups"_______________________________[ROWS:      11] [EXTRACT|REPLACE] [INST NAME: wp_woongpp_groups]
+TABLE "wp_woongpp_group_members"________________________[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: wp_woongpp_group_members]
+TABLE "wp_woongrm_custom_status"________________________[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: wp_woongrm_custom_status]
+TABLE "wp_woongrm_fields"_______________________________[ROWS:       7] [EXTRACT|REPLACE] [INST NAME: wp_woongrm_fields]
+TABLE "wp_woongrm_forms"________________________________[ROWS:       2] [EXTRACT|REPLACE] [INST NAME: wp_woongrm_forms]
+TABLE "wp_woongrm_front_users"__________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_woongrm_front_users]
+TABLE "wp_woongrm_login"________________________________[ROWS:      10] [EXTRACT|REPLACE] [INST NAME: wp_woongrm_login]
+TABLE "wp_woongrm_login_log"____________________________[ROWS:     124] [EXTRACT|REPLACE] [INST NAME: wp_woongrm_login_log]
+TABLE "wp_woongrm_notes"________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_woongrm_notes]
+TABLE "wp_woongrm_paypal_fields"________________________[ROWS:       2] [EXTRACT|REPLACE] [INST NAME: wp_woongrm_paypal_fields]
+TABLE "wp_woongrm_paypal_logs"__________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_woongrm_paypal_logs]
+TABLE "wp_woongrm_reports_notifications"________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_woongrm_reports_notifications]
+TABLE "wp_woongrm_rows"_________________________________[ROWS:       7] [EXTRACT|REPLACE] [INST NAME: wp_woongrm_rows]
+TABLE "wp_woongrm_rules"________________________________[ROWS:       4] [EXTRACT|REPLACE] [INST NAME: wp_woongrm_rules]
+TABLE "wp_woongrm_sent_mails"___________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_woongrm_sent_mails]
+TABLE "wp_woongrm_sessions"_____________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_woongrm_sessions]
+TABLE "wp_woongrm_stats"________________________________[ROWS:     186] [EXTRACT|REPLACE] [INST NAME: wp_woongrm_stats]
+TABLE "wp_woongrm_submissions"__________________________[ROWS:      12] [EXTRACT|REPLACE] [INST NAME: wp_woongrm_submissions]
+TABLE "wp_woongrm_submission_fields"____________________[ROWS:      26] [EXTRACT|REPLACE] [INST NAME: wp_woongrm_submission_fields]
+TABLE "wp_woongrm_tabs"_________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_woongrm_tabs]
+TABLE "wp_woongrm_tasks"________________________________[ROWS:       4] [EXTRACT|REPLACE] [INST NAME: wp_woongrm_tasks]
+TABLE "wp_woongrm_task_exe_log"_________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_woongrm_task_exe_log]
+TABLE "wp_woongsay_what_strings"________________________[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: wp_woongsay_what_strings]
+TABLE "wp_woongsignups"_________________________________[ROWS:       2] [EXTRACT|REPLACE] [INST NAME: wp_woongsignups]
+TABLE "wp_woongtermmeta"________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_woongtermmeta]
+TABLE "wp_woongterms"___________________________________[ROWS:      49] [EXTRACT|REPLACE] [INST NAME: wp_woongterms]
+TABLE "wp_woongterm_relationships"______________________[ROWS:      48] [EXTRACT|REPLACE] [INST NAME: wp_woongterm_relationships]
+TABLE "wp_woongterm_taxonomy"___________________________[ROWS:      49] [EXTRACT|REPLACE] [INST NAME: wp_woongterm_taxonomy]
+TABLE "wp_woongum_metadata"_____________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_woongum_metadata]
+TABLE "wp_woongusermeta"________________________________[ROWS:     264] [EXTRACT|REPLACE] [INST NAME: wp_woongusermeta]
+TABLE "wp_woongusers"___________________________________[ROWS:      11] [EXTRACT|REPLACE] [INST NAME: wp_woongusers]
+TABLE "wp_woonguser_registration_sessions"______________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_woonguser_registration_sessions]
+TABLE "wp_woonguwp_form_extras"_________________________[ROWS:       8] [EXTRACT|REPLACE] [INST NAME: wp_woonguwp_form_extras]
+TABLE "wp_woonguwp_form_fields"_________________________[ROWS:      20] [EXTRACT|REPLACE] [INST NAME: wp_woonguwp_form_fields]
+TABLE "wp_woonguwp_profile_tabs"________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_woonguwp_profile_tabs]
+TABLE "wp_woonguwp_user_sorting"________________________[ROWS:       8] [EXTRACT|REPLACE] [INST NAME: wp_woonguwp_user_sorting]
+TABLE "wp_woongwpforms_logs"____________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_woongwpforms_logs]
+TABLE "wp_woongwpforms_payments"________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_woongwpforms_payments]
+TABLE "wp_woongwpforms_payment_meta"____________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_woongwpforms_payment_meta]
+TABLE "wp_woongwpforms_tasks_meta"______________________[ROWS:       9] [EXTRACT|REPLACE] [INST NAME: wp_woongwpforms_tasks_meta]
+TABLE "wp_woongwpmailsmtp_debug_events"_________________[ROWS:       2] [EXTRACT|REPLACE] [INST NAME: wp_woongwpmailsmtp_debug_events]
+TABLE "wp_woongwpmailsmtp_tasks_meta"___________________[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: wp_woongwpmailsmtp_tasks_meta]
+TABLE "wp_woongwpuf_subscribers"________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_woongwpuf_subscribers]
+TABLE "wp_woongwpuf_transaction"________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_woongwpuf_transaction]
+TABLE "wp_woongyouzify_activity_polls_votes"____________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_woongyouzify_activity_polls_votes]
+TABLE "wp_woongyouzify_bookmarks"_______________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_woongyouzify_bookmarks]
+TABLE "wp_woongyouzify_hashtags"________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_woongyouzify_hashtags]
+TABLE "wp_woongyouzify_hashtags_items"__________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_woongyouzify_hashtags_items]
+TABLE "wp_woongyouzify_media"___________________________[ROWS:       3] [EXTRACT|REPLACE] [INST NAME: wp_woongyouzify_media]
+TABLE "wp_woongyouzify_reviews"_________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_woongyouzify_reviews]
+TABLE "wp_woongyouzify_social_login_users"______________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_woongyouzify_social_login_users]
+********************************************************************************
+
+--------------------------------------
+DATABASE-ENVIRONMENT
+--------------------------------------
+MYSQL VERSION:	This Server: 10.4.32 -- Build Server: 10.4.32
+FILE SIZE:	dup-database__[HASH].sql (4.76MB)
+TIMEOUT:	5000
+MAXPACK:	1048576
+SQLMODE-GLOBAL:	NO_ZERO_IN_DATE,NO_ZERO_DATE,NO_ENGINE_SUBSTITUTION
+SQLMODE-SESSION:NO_AUTO_VALUE_ON_ZERO
+DROP ALL TABLES
+--------------------------------------
+DATABASE RESULTS
+--------------------------------------
+QUERY FIXES
+GLOBAL RULES ADDED: PROC AND VIEWS
+
+QUERY FIXES GLOBAL RULES
+	SEARCH  => /^(\s*(?:\/\*!\d+\s)?\s*(?:CREATE.+)?DEFINER\s*=)([^\*\s]+)(.*)$/m
+	REPLACE => $1`root`@`localhost`$3
+
+	SEARCH  => /^(\s*CREATE.+(?:PROCEDURE|FUNCTION)[\s\S]*)(BEGIN)([\s\S]*)$/
+	REPLACE => $1SQL SECURITY INVOKER
+$2$3
+
+--------------------------------------
+** DATABASE CHUNK install start
+--------------------------------------
+DATABASE CHUNK SEEK POSITION: 0
+Auto Commit set to false successfully
+NO TABLE TO SKIP
+Auto Commit set to true successfully
+--------------------------------------
+** DATABASE CHUNK install end
+--------------------------------------
+ERRORS FOUND:	0
+DROPPED TABLES:	0
+RENAMED TABLES:	0
+QUERIES RAN:	1158
+
+TABLES ROWS IN DATABASE AFTER EXTRACTION
+
+TABLE "wp_woongactionscheduler_actions"_________________[ROWS:    29]
+TABLE "wp_woongactionscheduler_claims"__________________[ROWS:     0]
+TABLE "wp_woongactionscheduler_groups"__________________[ROWS:     5]
+TABLE "wp_woongactionscheduler_logs"____________________[ROWS:    70]
+TABLE "wp_woongbp_activity"_____________________________[ROWS:    44]
+TABLE "wp_woongbp_activity_meta"________________________[ROWS:     6]
+TABLE "wp_woongbp_friends"______________________________[ROWS:     4]
+TABLE "wp_woongbp_groups"_______________________________[ROWS:     3]
+TABLE "wp_woongbp_groups_groupmeta"_____________________[ROWS:     9]
+TABLE "wp_woongbp_groups_members"_______________________[ROWS:    10]
+TABLE "wp_woongbp_invitations"__________________________[ROWS:     0]
+TABLE "wp_woongbp_messages_messages"____________________[ROWS:     7]
+TABLE "wp_woongbp_messages_meta"________________________[ROWS:     0]
+TABLE "wp_woongbp_messages_notices"_____________________[ROWS:     0]
+TABLE "wp_woongbp_messages_recipients"__________________[ROWS:     8]
+TABLE "wp_woongbp_notifications"________________________[ROWS:    19]
+TABLE "wp_woongbp_notifications_meta"___________________[ROWS:     0]
+TABLE "wp_woongbp_optouts"______________________________[ROWS:     0]
+TABLE "wp_woongbp_user_blogs"___________________________[ROWS:     5]
+TABLE "wp_woongbp_user_blogs_blogmeta"__________________[ROWS:    10]
+TABLE "wp_woongbp_xprofile_data"________________________[ROWS:     6]
+TABLE "wp_woongbp_xprofile_fields"______________________[ROWS:     2]
+TABLE "wp_woongbp_xprofile_groups"______________________[ROWS:     1]
+TABLE "wp_woongbp_xprofile_meta"________________________[ROWS:    14]
+TABLE "wp_woongbsearch"_________________________________[ROWS:     3]
+TABLE "wp_woongbsearch_backup"__________________________[ROWS:     0]
+TABLE "wp_woongbsearch_daily"___________________________[ROWS:     3]
+TABLE "wp_woongbsearch_daily_backup"____________________[ROWS:     0]
+TABLE "wp_woongcommentmeta"_____________________________[ROWS:     0]
+TABLE "wp_woongcomments"________________________________[ROWS:     0]
+TABLE "wp_woongduplicator_packages"_____________________[ROWS:     3]
+TABLE "wp_woonge_events"________________________________[ROWS:    14]
+TABLE "wp_woongeasywpsmtp_debug_events"_________________[ROWS:     2]
+TABLE "wp_woongeasywpsmtp_tasks_meta"___________________[ROWS:     1]
+TABLE "wp_woonglinks"___________________________________[ROWS:     0]
+TABLE "wp_woongmailpoet_automation_run_logs"____________[ROWS:     0]
+TABLE "wp_woongmailpoet_automation_run_subjects"________[ROWS:     0]
+TABLE "wp_woongmailpoet_automation_runs"________________[ROWS:     0]
+TABLE "wp_woongmailpoet_automation_triggers"____________[ROWS:     0]
+TABLE "wp_woongmailpoet_automation_versions"____________[ROWS:     0]
+TABLE "wp_woongmailpoet_automations"____________________[ROWS:     0]
+TABLE "wp_woongmailpoet_custom_fields"__________________[ROWS:     0]
+TABLE "wp_woongmailpoet_dynamic_segment_filters"________[ROWS:     0]
+TABLE "wp_woongmailpoet_feature_flags"__________________[ROWS:     0]
+TABLE "wp_woongmailpoet_forms"__________________________[ROWS:     0]
+TABLE "wp_woongmailpoet_log"____________________________[ROWS:     0]
+TABLE "wp_woongmailpoet_migrations"_____________________[ROWS:    26]
+TABLE "wp_woongmailpoet_newsletter_links"_______________[ROWS:     0]
+TABLE "wp_woongmailpoet_newsletter_option"______________[ROWS:     0]
+TABLE "wp_woongmailpoet_newsletter_option_fields"_______[ROWS:    31]
+TABLE "wp_woongmailpoet_newsletter_posts"_______________[ROWS:     0]
+TABLE "wp_woongmailpoet_newsletter_segment"_____________[ROWS:     0]
+TABLE "wp_woongmailpoet_newsletter_templates"___________[ROWS:    76]
+TABLE "wp_woongmailpoet_newsletters"____________________[ROWS:     1]
+TABLE "wp_woongmailpoet_scheduled_task_subscribers"_____[ROWS:     0]
+TABLE "wp_woongmailpoet_scheduled_tasks"________________[ROWS:    15]
+TABLE "wp_woongmailpoet_segments"_______________________[ROWS:     3]
+TABLE "wp_woongmailpoet_sending_queues"_________________[ROWS:     0]
+TABLE "wp_woongmailpoet_settings"_______________________[ROWS:    24]
+TABLE "wp_woongmailpoet_statistics_bounces"_____________[ROWS:     0]
+TABLE "wp_woongmailpoet_statistics_clicks"______________[ROWS:     0]
+TABLE "wp_woongmailpoet_statistics_forms"_______________[ROWS:     0]
+TABLE "wp_woongmailpoet_statistics_newsletters"_________[ROWS:     0]
+TABLE "wp_woongmailpoet_statistics_opens"_______________[ROWS:     0]
+TABLE "wp_woongmailpoet_statistics_unsubscribes"________[ROWS:     0]
+TABLE "wp_woongmailpoet_statistics_woocommerce_purchases"[ROWS:     0]
+TABLE "wp_woongmailpoet_stats_notifications"____________[ROWS:     0]
+TABLE "wp_woongmailpoet_subscriber_custom_field"________[ROWS:     0]
+TABLE "wp_woongmailpoet_subscriber_ips"_________________[ROWS:     0]
+TABLE "wp_woongmailpoet_subscriber_segment"_____________[ROWS:     3]
+TABLE "wp_woongmailpoet_subscriber_tag"_________________[ROWS:     0]
+TABLE "wp_woongmailpoet_subscribers"____________________[ROWS:     3]
+TABLE "wp_woongmailpoet_tags"___________________________[ROWS:     0]
+TABLE "wp_woongmailpoet_user_agents"____________________[ROWS:     0]
+TABLE "wp_woongmailpoet_user_flags"_____________________[ROWS:     0]
+TABLE "wp_woongoptions"_________________________________[ROWS:   966]
+TABLE "wp_woongpostmeta"________________________________[ROWS:   275]
+TABLE "wp_woongposts"___________________________________[ROWS:   299]
+TABLE "wp_woongpp_group_members"________________________[ROWS:     1]
+TABLE "wp_woongpp_groups"_______________________________[ROWS:    11]
+TABLE "wp_woongppc_exception_items"_____________________[ROWS:     0]
+TABLE "wp_woongppc_exceptions"__________________________[ROWS:     0]
+TABLE "wp_woongppc_roles"_______________________________[ROWS:     0]
+TABLE "wp_woongppi_errors"______________________________[ROWS:     0]
+TABLE "wp_woongppi_imported"____________________________[ROWS:     0]
+TABLE "wp_woongppi_runs"________________________________[ROWS:     0]
+TABLE "wp_woongrm_custom_status"________________________[ROWS:     1]
+TABLE "wp_woongrm_fields"_______________________________[ROWS:     7]
+TABLE "wp_woongrm_forms"________________________________[ROWS:     2]
+TABLE "wp_woongrm_front_users"__________________________[ROWS:     0]
+TABLE "wp_woongrm_login"________________________________[ROWS:    10]
+TABLE "wp_woongrm_login_log"____________________________[ROWS:   124]
+TABLE "wp_woongrm_notes"________________________________[ROWS:     0]
+TABLE "wp_woongrm_paypal_fields"________________________[ROWS:     2]
+TABLE "wp_woongrm_paypal_logs"__________________________[ROWS:     0]
+TABLE "wp_woongrm_reports_notifications"________________[ROWS:     0]
+TABLE "wp_woongrm_rows"_________________________________[ROWS:     7]
+TABLE "wp_woongrm_rules"________________________________[ROWS:     4]
+TABLE "wp_woongrm_sent_mails"___________________________[ROWS:     0]
+TABLE "wp_woongrm_sessions"_____________________________[ROWS:     0]
+TABLE "wp_woongrm_stats"________________________________[ROWS:   186]
+TABLE "wp_woongrm_submission_fields"____________________[ROWS:    26]
+TABLE "wp_woongrm_submissions"__________________________[ROWS:    12]
+TABLE "wp_woongrm_tabs"_________________________________[ROWS:     0]
+TABLE "wp_woongrm_task_exe_log"_________________________[ROWS:     0]
+TABLE "wp_woongrm_tasks"________________________________[ROWS:     4]
+TABLE "wp_woongsay_what_strings"________________________[ROWS:     1]
+TABLE "wp_woongsignups"_________________________________[ROWS:     2]
+TABLE "wp_woongterm_relationships"______________________[ROWS:    48]
+TABLE "wp_woongterm_taxonomy"___________________________[ROWS:    49]
+TABLE "wp_woongtermmeta"________________________________[ROWS:     0]
+TABLE "wp_woongterms"___________________________________[ROWS:    49]
+TABLE "wp_woongum_metadata"_____________________________[ROWS:     0]
+TABLE "wp_woonguser_registration_sessions"______________[ROWS:     0]
+TABLE "wp_woongusermeta"________________________________[ROWS:   264]
+TABLE "wp_woongusers"___________________________________[ROWS:    11]
+TABLE "wp_woonguwp_form_extras"_________________________[ROWS:     8]
+TABLE "wp_woonguwp_form_fields"_________________________[ROWS:    20]
+TABLE "wp_woonguwp_profile_tabs"________________________[ROWS:     0]
+TABLE "wp_woonguwp_user_sorting"________________________[ROWS:     8]
+TABLE "wp_woongwpforms_logs"____________________________[ROWS:     0]
+TABLE "wp_woongwpforms_payment_meta"____________________[ROWS:     0]
+TABLE "wp_woongwpforms_payments"________________________[ROWS:     0]
+TABLE "wp_woongwpforms_tasks_meta"______________________[ROWS:     9]
+TABLE "wp_woongwpmailsmtp_debug_events"_________________[ROWS:     2]
+TABLE "wp_woongwpmailsmtp_tasks_meta"___________________[ROWS:     1]
+TABLE "wp_woongwpuf_subscribers"________________________[ROWS:     0]
+TABLE "wp_woongwpuf_transaction"________________________[ROWS:     0]
+TABLE "wp_woongyouzify_activity_polls_votes"____________[ROWS:     0]
+TABLE "wp_woongyouzify_bookmarks"_______________________[ROWS:     0]
+TABLE "wp_woongyouzify_hashtags"________________________[ROWS:     0]
+TABLE "wp_woongyouzify_hashtags_items"__________________[ROWS:     0]
+TABLE "wp_woongyouzify_media"___________________________[ROWS:     3]
+TABLE "wp_woongyouzify_reviews"_________________________[ROWS:     0]
+TABLE "wp_woongyouzify_social_login_users"______________[ROWS:     0]
+
+INSERT DATA RUNTIME: 4.6261 sec.
+STEP-2 COMPLETE @ 01:34:00 - RUNTIME: 4.6269 sec.
+AJAX ACTION [dbinstall] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\gamenect_tesi\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [webupdate] START
+
+====================================
+SET SEARCH AND REPLACE LIST INSTALL TYPE single site
+====================================
+SEARCH ITEM[T:path |P:12] SEARCH: C:/xampp/htdocs/gamenect REPLACE: C:/xampp/htdocs/gamenect_tesi [SCOPE: ALL]
+SEARCH ITEM[T:urlnd|P:12] SEARCH: http://localhost/gamenect REPLACE: http://localhost/gamenect_tesi [SCOPE: ALL]
+CHUNK LOAD DATA: IS NULL 
+CHUNK ACTION: CURRENT [start][][]
+
+
+********************************************************************************
+DUPLICATOR LITE: INSTALL-LOG
+STEP-3 START @ 01:34:01
+NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+CHARSET SERVER:	"utf8mb4"
+CHARSET CLIENT:	"utf8mb4"
+********************************************************************************
+OPTIONS:
+SKIP PATH REPLACE_____: false
+DISALLOW_FILE_EDIT____: [value = ], [inWpConfig = ]
+DISALLOW_FILE_MODS____: [value = ], [inWpConfig = ]
+AUTOSAVE_INTERVAL_____: [value = 60], [inWpConfig = ]
+WP_POST_REVISIONS_____: [value = 1], [inWpConfig = ]
+FORCE_SSL_ADMIN_______: [value = ], [inWpConfig = ]
+WP_AUTO_UPDATE_CORE___: [value = false], [inWpConfig = ]
+WP_CACHE______________: [value = ], [inWpConfig = ]
+WPCACHEHOME___________: [value = /], [inWpConfig = ]
+WP_DEBUG______________: [value = ], [inWpConfig = 1]
+WP_DEBUG_LOG__________: [value = ], [inWpConfig = ]
+WP_DEBUG_DISPLAY______: [value = 1], [inWpConfig = ]
+WP_DISABLE_FATAL_ERROR_HANDLER: [value = ], [inWpConfig = ]
+SCRIPT_DEBUG__________: [value = ], [inWpConfig = ]
+CONCATENATE_SCRIPTS___: [value = ], [inWpConfig = ]
+SAVEQUERIES___________: [value = ], [inWpConfig = ]
+ALTERNATE_WP_CRON_____: [value = ], [inWpConfig = ]
+DISABLE_WP_CRON_______: [value = ], [inWpConfig = ]
+WP_CRON_LOCK_TIMEOUT__: [value = 60], [inWpConfig = ]
+COOKIE_DOMAIN_________: [value = ], [inWpConfig = ]
+WP_MEMORY_LIMIT_______: [value = 40M], [inWpConfig = ]
+WP_MAX_MEMORY_LIMIT___: [value = 512M], [inWpConfig = ]
+WP_TEMP_DIR___________: [value = ], [inWpConfig = ]
+********************************************************************************
+
+********************************************************************************
+CHUNK PARAMS:
+maxIteration__________: 0
+timeOut_______________: 5000
+throttling____________: 2
+rowsPerPage___________: 1000
+********************************************************************************
+
+CHUNK ACTION: CURRENT [cleanup_trans][][]
+[PHP ERR][E_WARNING] MSG:foreach() argument must be of type array|object, string given [CODE:2|FILE:C:\xampp\htdocs\gamenect_tesi\dup-installer\src\Core\Deploy\Database\DbCleanup.php|LINE:95]
+CLEAN OPTIONS [wp_woongoptions]
+	`option_name` = "duplicator_plugin_data_stats"
+	`option_name` LIKE "\_transient%"
+	`option_name` LIKE "\_site\_transient%"
+DATABASE OPTIONS DELETED [ROWS:   115]
+CHUNK ACTION: CURRENT [cleanup_extra][][]
+CLEANUP EXTRA
+	- SKIP DROP VIEWS
+	- SKIP DROP PROCS
+	- SKIP DROP FUNCS
+CHUNK ACTION: CURRENT [cleanup_packages][][]
+EMPTY PACKAGES TABLE
+CLEAN PACKAGES
+DATABASE PACKAGE DELETED [ROWS:     3]
+CHUNK ACTION: CURRENT [init][][]
+
+EVALUATE TABLE: "wp_woongactionscheduler_actions"_________________[ROWS:    29][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/xampp/htdocs/gamenect" ========================> "C:/xampp/htdocs/gamenect_tesi"
+	SEARCH[urlnd]  2:"http://localhost/gamenect" =======================> "http://localhost/gamenect_tesi"
+	CHUNK ACTION: CURRENT [search_replace][wp_woongactionscheduler_actions][0]
+
+EVALUATE TABLE: "wp_woongactionscheduler_claims"__________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woongactionscheduler_groups"__________________[ROWS:     5][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/xampp/htdocs/gamenect" ========================> "C:/xampp/htdocs/gamenect_tesi"
+	SEARCH[urlnd]  2:"http://localhost/gamenect" =======================> "http://localhost/gamenect_tesi"
+	CHUNK ACTION: CURRENT [search_replace][wp_woongactionscheduler_groups][0]
+
+EVALUATE TABLE: "wp_woongactionscheduler_logs"____________________[ROWS:    70][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/xampp/htdocs/gamenect" ========================> "C:/xampp/htdocs/gamenect_tesi"
+	SEARCH[urlnd]  2:"http://localhost/gamenect" =======================> "http://localhost/gamenect_tesi"
+	CHUNK ACTION: CURRENT [search_replace][wp_woongactionscheduler_logs][0]
+
+EVALUATE TABLE: "wp_woongbp_activity"_____________________________[ROWS:    44][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/xampp/htdocs/gamenect" ========================> "C:/xampp/htdocs/gamenect_tesi"
+	SEARCH[urlnd]  2:"http://localhost/gamenect" =======================> "http://localhost/gamenect_tesi"
+	CHUNK ACTION: CURRENT [search_replace][wp_woongbp_activity][0]
+
+EVALUATE TABLE: "wp_woongbp_activity_meta"________________________[ROWS:     6][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/xampp/htdocs/gamenect" ========================> "C:/xampp/htdocs/gamenect_tesi"
+	SEARCH[urlnd]  2:"http://localhost/gamenect" =======================> "http://localhost/gamenect_tesi"
+	CHUNK ACTION: CURRENT [search_replace][wp_woongbp_activity_meta][0]
+
+EVALUATE TABLE: "wp_woongbp_friends"______________________________[ROWS:     4][PG:   1][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woongbp_groups"_______________________________[ROWS:     3][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/xampp/htdocs/gamenect" ========================> "C:/xampp/htdocs/gamenect_tesi"
+	SEARCH[urlnd]  2:"http://localhost/gamenect" =======================> "http://localhost/gamenect_tesi"
+	CHUNK ACTION: CURRENT [search_replace][wp_woongbp_groups][0]
+
+EVALUATE TABLE: "wp_woongbp_groups_groupmeta"_____________________[ROWS:     9][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/xampp/htdocs/gamenect" ========================> "C:/xampp/htdocs/gamenect_tesi"
+	SEARCH[urlnd]  2:"http://localhost/gamenect" =======================> "http://localhost/gamenect_tesi"
+	CHUNK ACTION: CURRENT [search_replace][wp_woongbp_groups_groupmeta][0]
+
+EVALUATE TABLE: "wp_woongbp_groups_members"_______________________[ROWS:    10][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/xampp/htdocs/gamenect" ========================> "C:/xampp/htdocs/gamenect_tesi"
+	SEARCH[urlnd]  2:"http://localhost/gamenect" =======================> "http://localhost/gamenect_tesi"
+	CHUNK ACTION: CURRENT [search_replace][wp_woongbp_groups_members][0]
+
+EVALUATE TABLE: "wp_woongbp_invitations"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woongbp_messages_messages"____________________[ROWS:     7][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/xampp/htdocs/gamenect" ========================> "C:/xampp/htdocs/gamenect_tesi"
+	SEARCH[urlnd]  2:"http://localhost/gamenect" =======================> "http://localhost/gamenect_tesi"
+	CHUNK ACTION: CURRENT [search_replace][wp_woongbp_messages_messages][0]
+
+EVALUATE TABLE: "wp_woongbp_messages_meta"________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woongbp_messages_notices"_____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woongbp_messages_recipients"__________________[ROWS:     8][PG:   1][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woongbp_notifications"________________________[ROWS:    19][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/xampp/htdocs/gamenect" ========================> "C:/xampp/htdocs/gamenect_tesi"
+	SEARCH[urlnd]  2:"http://localhost/gamenect" =======================> "http://localhost/gamenect_tesi"
+	CHUNK ACTION: CURRENT [search_replace][wp_woongbp_notifications][0]
+
+EVALUATE TABLE: "wp_woongbp_notifications_meta"___________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woongbp_optouts"______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woongbp_user_blogs"___________________________[ROWS:     5][PG:   1][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woongbp_user_blogs_blogmeta"__________________[ROWS:    10][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/xampp/htdocs/gamenect" ========================> "C:/xampp/htdocs/gamenect_tesi"
+	SEARCH[urlnd]  2:"http://localhost/gamenect" =======================> "http://localhost/gamenect_tesi"
+	CHUNK ACTION: CURRENT [search_replace][wp_woongbp_user_blogs_blogmeta][0]
+
+EVALUATE TABLE: "wp_woongbp_xprofile_data"________________________[ROWS:     6][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/xampp/htdocs/gamenect" ========================> "C:/xampp/htdocs/gamenect_tesi"
+	SEARCH[urlnd]  2:"http://localhost/gamenect" =======================> "http://localhost/gamenect_tesi"
+	CHUNK ACTION: CURRENT [search_replace][wp_woongbp_xprofile_data][0]
+
+EVALUATE TABLE: "wp_woongbp_xprofile_fields"______________________[ROWS:     2][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/xampp/htdocs/gamenect" ========================> "C:/xampp/htdocs/gamenect_tesi"
+	SEARCH[urlnd]  2:"http://localhost/gamenect" =======================> "http://localhost/gamenect_tesi"
+	CHUNK ACTION: CURRENT [search_replace][wp_woongbp_xprofile_fields][0]
+
+EVALUATE TABLE: "wp_woongbp_xprofile_groups"______________________[ROWS:     1][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/xampp/htdocs/gamenect" ========================> "C:/xampp/htdocs/gamenect_tesi"
+	SEARCH[urlnd]  2:"http://localhost/gamenect" =======================> "http://localhost/gamenect_tesi"
+	CHUNK ACTION: CURRENT [search_replace][wp_woongbp_xprofile_groups][0]
+
+EVALUATE TABLE: "wp_woongbp_xprofile_meta"________________________[ROWS:    14][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/xampp/htdocs/gamenect" ========================> "C:/xampp/htdocs/gamenect_tesi"
+	SEARCH[urlnd]  2:"http://localhost/gamenect" =======================> "http://localhost/gamenect_tesi"
+	CHUNK ACTION: CURRENT [search_replace][wp_woongbp_xprofile_meta][0]
+
+EVALUATE TABLE: "wp_woongbsearch"_________________________________[ROWS:     3][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/xampp/htdocs/gamenect" ========================> "C:/xampp/htdocs/gamenect_tesi"
+	SEARCH[urlnd]  2:"http://localhost/gamenect" =======================> "http://localhost/gamenect_tesi"
+	CHUNK ACTION: CURRENT [search_replace][wp_woongbsearch][0]
+
+EVALUATE TABLE: "wp_woongbsearch_backup"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woongbsearch_daily"___________________________[ROWS:     3][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/xampp/htdocs/gamenect" ========================> "C:/xampp/htdocs/gamenect_tesi"
+	SEARCH[urlnd]  2:"http://localhost/gamenect" =======================> "http://localhost/gamenect_tesi"
+	CHUNK ACTION: CURRENT [search_replace][wp_woongbsearch_daily][0]
+
+EVALUATE TABLE: "wp_woongbsearch_daily_backup"____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woongcommentmeta"_____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woongcomments"________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woongduplicator_packages"_____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woongeasywpsmtp_debug_events"_________________[ROWS:     2][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/xampp/htdocs/gamenect" ========================> "C:/xampp/htdocs/gamenect_tesi"
+	SEARCH[urlnd]  2:"http://localhost/gamenect" =======================> "http://localhost/gamenect_tesi"
+	CHUNK ACTION: CURRENT [search_replace][wp_woongeasywpsmtp_debug_events][0]
+
+EVALUATE TABLE: "wp_woongeasywpsmtp_tasks_meta"___________________[ROWS:     1][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/xampp/htdocs/gamenect" ========================> "C:/xampp/htdocs/gamenect_tesi"
+	SEARCH[urlnd]  2:"http://localhost/gamenect" =======================> "http://localhost/gamenect_tesi"
+	CHUNK ACTION: CURRENT [search_replace][wp_woongeasywpsmtp_tasks_meta][0]
+
+EVALUATE TABLE: "wp_woonge_events"________________________________[ROWS:    14][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/xampp/htdocs/gamenect" ========================> "C:/xampp/htdocs/gamenect_tesi"
+	SEARCH[urlnd]  2:"http://localhost/gamenect" =======================> "http://localhost/gamenect_tesi"
+	CHUNK ACTION: CURRENT [search_replace][wp_woonge_events][0]
+
+EVALUATE TABLE: "wp_woonglinks"___________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woongmailpoet_automations"____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woongmailpoet_automation_runs"________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woongmailpoet_automation_run_logs"____________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woongmailpoet_automation_run_subjects"________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woongmailpoet_automation_triggers"____________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woongmailpoet_automation_versions"____________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woongmailpoet_custom_fields"__________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woongmailpoet_dynamic_segment_filters"________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woongmailpoet_feature_flags"__________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woongmailpoet_forms"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woongmailpoet_log"____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woongmailpoet_migrations"_____________________[ROWS:    26][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/xampp/htdocs/gamenect" ========================> "C:/xampp/htdocs/gamenect_tesi"
+	SEARCH[urlnd]  2:"http://localhost/gamenect" =======================> "http://localhost/gamenect_tesi"
+	CHUNK ACTION: CURRENT [search_replace][wp_woongmailpoet_migrations][0]
+
+EVALUATE TABLE: "wp_woongmailpoet_newsletters"____________________[ROWS:     1][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/xampp/htdocs/gamenect" ========================> "C:/xampp/htdocs/gamenect_tesi"
+	SEARCH[urlnd]  2:"http://localhost/gamenect" =======================> "http://localhost/gamenect_tesi"
+	CHUNK ACTION: CURRENT [search_replace][wp_woongmailpoet_newsletters][0]
+
+EVALUATE TABLE: "wp_woongmailpoet_newsletter_links"_______________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woongmailpoet_newsletter_option"______________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woongmailpoet_newsletter_option_fields"_______[ROWS:    31][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/xampp/htdocs/gamenect" ========================> "C:/xampp/htdocs/gamenect_tesi"
+	SEARCH[urlnd]  2:"http://localhost/gamenect" =======================> "http://localhost/gamenect_tesi"
+	CHUNK ACTION: CURRENT [search_replace][wp_woongmailpoet_newsletter_option_fields][0]
+
+EVALUATE TABLE: "wp_woongmailpoet_newsletter_posts"_______________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woongmailpoet_newsletter_segment"_____________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woongmailpoet_newsletter_templates"___________[ROWS:    76][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/xampp/htdocs/gamenect" ========================> "C:/xampp/htdocs/gamenect_tesi"
+	SEARCH[urlnd]  2:"http://localhost/gamenect" =======================> "http://localhost/gamenect_tesi"
+	CHUNK ACTION: CURRENT [search_replace][wp_woongmailpoet_newsletter_templates][0]
+
+EVALUATE TABLE: "wp_woongmailpoet_scheduled_tasks"________________[ROWS:    15][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/xampp/htdocs/gamenect" ========================> "C:/xampp/htdocs/gamenect_tesi"
+	SEARCH[urlnd]  2:"http://localhost/gamenect" =======================> "http://localhost/gamenect_tesi"
+	CHUNK ACTION: CURRENT [search_replace][wp_woongmailpoet_scheduled_tasks][0]
+
+EVALUATE TABLE: "wp_woongmailpoet_scheduled_task_subscribers"_____[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woongmailpoet_segments"_______________________[ROWS:     3][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/xampp/htdocs/gamenect" ========================> "C:/xampp/htdocs/gamenect_tesi"
+	SEARCH[urlnd]  2:"http://localhost/gamenect" =======================> "http://localhost/gamenect_tesi"
+	CHUNK ACTION: CURRENT [search_replace][wp_woongmailpoet_segments][0]
+
+EVALUATE TABLE: "wp_woongmailpoet_sending_queues"_________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woongmailpoet_settings"_______________________[ROWS:    24][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/xampp/htdocs/gamenect" ========================> "C:/xampp/htdocs/gamenect_tesi"
+	SEARCH[urlnd]  2:"http://localhost/gamenect" =======================> "http://localhost/gamenect_tesi"
+	CHUNK ACTION: CURRENT [search_replace][wp_woongmailpoet_settings][0]
+
+EVALUATE TABLE: "wp_woongmailpoet_statistics_bounces"_____________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woongmailpoet_statistics_clicks"______________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woongmailpoet_statistics_forms"_______________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woongmailpoet_statistics_newsletters"_________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woongmailpoet_statistics_opens"_______________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woongmailpoet_statistics_unsubscribes"________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woongmailpoet_statistics_woocommerce_purchases"[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woongmailpoet_stats_notifications"____________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woongmailpoet_subscribers"____________________[ROWS:     3][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/xampp/htdocs/gamenect" ========================> "C:/xampp/htdocs/gamenect_tesi"
+	SEARCH[urlnd]  2:"http://localhost/gamenect" =======================> "http://localhost/gamenect_tesi"
+	CHUNK ACTION: CURRENT [search_replace][wp_woongmailpoet_subscribers][0]
+
+EVALUATE TABLE: "wp_woongmailpoet_subscriber_custom_field"________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woongmailpoet_subscriber_ips"_________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woongmailpoet_subscriber_segment"_____________[ROWS:     3][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/xampp/htdocs/gamenect" ========================> "C:/xampp/htdocs/gamenect_tesi"
+	SEARCH[urlnd]  2:"http://localhost/gamenect" =======================> "http://localhost/gamenect_tesi"
+	CHUNK ACTION: CURRENT [search_replace][wp_woongmailpoet_subscriber_segment][0]
+
+EVALUATE TABLE: "wp_woongmailpoet_subscriber_tag"_________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woongmailpoet_tags"___________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woongmailpoet_user_agents"____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woongmailpoet_user_flags"_____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woongoptions"_________________________________[ROWS:   851][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/xampp/htdocs/gamenect" ========================> "C:/xampp/htdocs/gamenect_tesi"
+	SEARCH[urlnd]  2:"http://localhost/gamenect" =======================> "http://localhost/gamenect_tesi"
+	CHUNK ACTION: CURRENT [search_replace][wp_woongoptions][0]
+
+EVALUATE TABLE: "wp_woongpostmeta"________________________________[ROWS:   275][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/xampp/htdocs/gamenect" ========================> "C:/xampp/htdocs/gamenect_tesi"
+	SEARCH[urlnd]  2:"http://localhost/gamenect" =======================> "http://localhost/gamenect_tesi"
+	CHUNK ACTION: CURRENT [search_replace][wp_woongpostmeta][0]
+
+EVALUATE TABLE: "wp_woongposts"___________________________________[ROWS:   299][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/xampp/htdocs/gamenect" ========================> "C:/xampp/htdocs/gamenect_tesi"
+	SEARCH[urlnd]  2:"http://localhost/gamenect" =======================> "http://localhost/gamenect_tesi"
+	CHUNK ACTION: CURRENT [search_replace][wp_woongposts][0]
+
+EVALUATE TABLE: "wp_woongppc_exceptions"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woongppc_exception_items"_____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woongppc_roles"_______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woongppi_errors"______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woongppi_imported"____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woongppi_runs"________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woongpp_groups"_______________________________[ROWS:    11][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/xampp/htdocs/gamenect" ========================> "C:/xampp/htdocs/gamenect_tesi"
+	SEARCH[urlnd]  2:"http://localhost/gamenect" =======================> "http://localhost/gamenect_tesi"
+	CHUNK ACTION: CURRENT [search_replace][wp_woongpp_groups][0]
+
+EVALUATE TABLE: "wp_woongpp_group_members"________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/xampp/htdocs/gamenect" ========================> "C:/xampp/htdocs/gamenect_tesi"
+	SEARCH[urlnd]  2:"http://localhost/gamenect" =======================> "http://localhost/gamenect_tesi"
+	CHUNK ACTION: CURRENT [search_replace][wp_woongpp_group_members][0]
+
+EVALUATE TABLE: "wp_woongrm_custom_status"________________________[ROWS:     1][PG:   1][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woongrm_fields"_______________________________[ROWS:     7][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/xampp/htdocs/gamenect" ========================> "C:/xampp/htdocs/gamenect_tesi"
+	SEARCH[urlnd]  2:"http://localhost/gamenect" =======================> "http://localhost/gamenect_tesi"
+	CHUNK ACTION: CURRENT [search_replace][wp_woongrm_fields][0]
+
+EVALUATE TABLE: "wp_woongrm_forms"________________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/xampp/htdocs/gamenect" ========================> "C:/xampp/htdocs/gamenect_tesi"
+	SEARCH[urlnd]  2:"http://localhost/gamenect" =======================> "http://localhost/gamenect_tesi"
+	CHUNK ACTION: CURRENT [search_replace][wp_woongrm_forms][0]
+
+EVALUATE TABLE: "wp_woongrm_front_users"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woongrm_login"________________________________[ROWS:    10][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/xampp/htdocs/gamenect" ========================> "C:/xampp/htdocs/gamenect_tesi"
+	SEARCH[urlnd]  2:"http://localhost/gamenect" =======================> "http://localhost/gamenect_tesi"
+	CHUNK ACTION: CURRENT [search_replace][wp_woongrm_login][0]
+
+EVALUATE TABLE: "wp_woongrm_login_log"____________________________[ROWS:   124][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/xampp/htdocs/gamenect" ========================> "C:/xampp/htdocs/gamenect_tesi"
+	SEARCH[urlnd]  2:"http://localhost/gamenect" =======================> "http://localhost/gamenect_tesi"
+	CHUNK ACTION: CURRENT [search_replace][wp_woongrm_login_log][0]
+
+EVALUATE TABLE: "wp_woongrm_notes"________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woongrm_paypal_fields"________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/xampp/htdocs/gamenect" ========================> "C:/xampp/htdocs/gamenect_tesi"
+	SEARCH[urlnd]  2:"http://localhost/gamenect" =======================> "http://localhost/gamenect_tesi"
+	CHUNK ACTION: CURRENT [search_replace][wp_woongrm_paypal_fields][0]
+
+EVALUATE TABLE: "wp_woongrm_paypal_logs"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woongrm_reports_notifications"________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woongrm_rows"_________________________________[ROWS:     7][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/xampp/htdocs/gamenect" ========================> "C:/xampp/htdocs/gamenect_tesi"
+	SEARCH[urlnd]  2:"http://localhost/gamenect" =======================> "http://localhost/gamenect_tesi"
+	CHUNK ACTION: CURRENT [search_replace][wp_woongrm_rows][0]
+
+EVALUATE TABLE: "wp_woongrm_rules"________________________________[ROWS:     4][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/xampp/htdocs/gamenect" ========================> "C:/xampp/htdocs/gamenect_tesi"
+	SEARCH[urlnd]  2:"http://localhost/gamenect" =======================> "http://localhost/gamenect_tesi"
+	CHUNK ACTION: CURRENT [search_replace][wp_woongrm_rules][0]
+
+EVALUATE TABLE: "wp_woongrm_sent_mails"___________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woongrm_sessions"_____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woongrm_stats"________________________________[ROWS:   186][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/xampp/htdocs/gamenect" ========================> "C:/xampp/htdocs/gamenect_tesi"
+	SEARCH[urlnd]  2:"http://localhost/gamenect" =======================> "http://localhost/gamenect_tesi"
+	CHUNK ACTION: CURRENT [search_replace][wp_woongrm_stats][0]
+
+EVALUATE TABLE: "wp_woongrm_submissions"__________________________[ROWS:    12][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/xampp/htdocs/gamenect" ========================> "C:/xampp/htdocs/gamenect_tesi"
+	SEARCH[urlnd]  2:"http://localhost/gamenect" =======================> "http://localhost/gamenect_tesi"
+	CHUNK ACTION: CURRENT [search_replace][wp_woongrm_submissions][0]
+
+EVALUATE TABLE: "wp_woongrm_submission_fields"____________________[ROWS:    26][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/xampp/htdocs/gamenect" ========================> "C:/xampp/htdocs/gamenect_tesi"
+	SEARCH[urlnd]  2:"http://localhost/gamenect" =======================> "http://localhost/gamenect_tesi"
+	CHUNK ACTION: CURRENT [search_replace][wp_woongrm_submission_fields][0]
+
+EVALUATE TABLE: "wp_woongrm_tabs"_________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woongrm_tasks"________________________________[ROWS:     4][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/xampp/htdocs/gamenect" ========================> "C:/xampp/htdocs/gamenect_tesi"
+	SEARCH[urlnd]  2:"http://localhost/gamenect" =======================> "http://localhost/gamenect_tesi"
+	CHUNK ACTION: CURRENT [search_replace][wp_woongrm_tasks][0]
+
+EVALUATE TABLE: "wp_woongrm_task_exe_log"_________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woongsay_what_strings"________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/xampp/htdocs/gamenect" ========================> "C:/xampp/htdocs/gamenect_tesi"
+	SEARCH[urlnd]  2:"http://localhost/gamenect" =======================> "http://localhost/gamenect_tesi"
+	CHUNK ACTION: CURRENT [search_replace][wp_woongsay_what_strings][0]
+
+EVALUATE TABLE: "wp_woongsignups"_________________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/xampp/htdocs/gamenect" ========================> "C:/xampp/htdocs/gamenect_tesi"
+	SEARCH[urlnd]  2:"http://localhost/gamenect" =======================> "http://localhost/gamenect_tesi"
+	--- BASE STRINGS ---
+	--- BASE STRINGS ---
+	CHUNK ACTION: CURRENT [search_replace][wp_woongsignups][0]
+
+EVALUATE TABLE: "wp_woongtermmeta"________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woongterms"___________________________________[ROWS:    49][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/xampp/htdocs/gamenect" ========================> "C:/xampp/htdocs/gamenect_tesi"
+	SEARCH[urlnd]  2:"http://localhost/gamenect" =======================> "http://localhost/gamenect_tesi"
+	CHUNK ACTION: CURRENT [search_replace][wp_woongterms][0]
+
+EVALUATE TABLE: "wp_woongterm_relationships"______________________[ROWS:    48][PG:   1][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woongterm_taxonomy"___________________________[ROWS:    49][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/xampp/htdocs/gamenect" ========================> "C:/xampp/htdocs/gamenect_tesi"
+	SEARCH[urlnd]  2:"http://localhost/gamenect" =======================> "http://localhost/gamenect_tesi"
+	CHUNK ACTION: CURRENT [search_replace][wp_woongterm_taxonomy][0]
+
+EVALUATE TABLE: "wp_woongum_metadata"_____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woongusermeta"________________________________[ROWS:   264][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/xampp/htdocs/gamenect" ========================> "C:/xampp/htdocs/gamenect_tesi"
+	SEARCH[urlnd]  2:"http://localhost/gamenect" =======================> "http://localhost/gamenect_tesi"
+	CHUNK ACTION: CURRENT [search_replace][wp_woongusermeta][0]
+
+EVALUATE TABLE: "wp_woongusers"___________________________________[ROWS:    11][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/xampp/htdocs/gamenect" ========================> "C:/xampp/htdocs/gamenect_tesi"
+	SEARCH[urlnd]  2:"http://localhost/gamenect" =======================> "http://localhost/gamenect_tesi"
+	CHUNK ACTION: CURRENT [search_replace][wp_woongusers][0]
+
+EVALUATE TABLE: "wp_woonguser_registration_sessions"______________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woonguwp_form_extras"_________________________[ROWS:     8][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/xampp/htdocs/gamenect" ========================> "C:/xampp/htdocs/gamenect_tesi"
+	SEARCH[urlnd]  2:"http://localhost/gamenect" =======================> "http://localhost/gamenect_tesi"
+	CHUNK ACTION: CURRENT [search_replace][wp_woonguwp_form_extras][0]
+
+EVALUATE TABLE: "wp_woonguwp_form_fields"_________________________[ROWS:    20][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/xampp/htdocs/gamenect" ========================> "C:/xampp/htdocs/gamenect_tesi"
+	SEARCH[urlnd]  2:"http://localhost/gamenect" =======================> "http://localhost/gamenect_tesi"
+	CHUNK ACTION: CURRENT [search_replace][wp_woonguwp_form_fields][0]
+
+EVALUATE TABLE: "wp_woonguwp_profile_tabs"________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woonguwp_user_sorting"________________________[ROWS:     8][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/xampp/htdocs/gamenect" ========================> "C:/xampp/htdocs/gamenect_tesi"
+	SEARCH[urlnd]  2:"http://localhost/gamenect" =======================> "http://localhost/gamenect_tesi"
+	CHUNK ACTION: CURRENT [search_replace][wp_woonguwp_user_sorting][0]
+
+EVALUATE TABLE: "wp_woongwpforms_logs"____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woongwpforms_payments"________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woongwpforms_payment_meta"____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woongwpforms_tasks_meta"______________________[ROWS:     9][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/xampp/htdocs/gamenect" ========================> "C:/xampp/htdocs/gamenect_tesi"
+	SEARCH[urlnd]  2:"http://localhost/gamenect" =======================> "http://localhost/gamenect_tesi"
+	CHUNK ACTION: CURRENT [search_replace][wp_woongwpforms_tasks_meta][0]
+
+EVALUATE TABLE: "wp_woongwpmailsmtp_debug_events"_________________[ROWS:     2][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/xampp/htdocs/gamenect" ========================> "C:/xampp/htdocs/gamenect_tesi"
+	SEARCH[urlnd]  2:"http://localhost/gamenect" =======================> "http://localhost/gamenect_tesi"
+	CHUNK ACTION: CURRENT [search_replace][wp_woongwpmailsmtp_debug_events][0]
+
+EVALUATE TABLE: "wp_woongwpmailsmtp_tasks_meta"___________________[ROWS:     1][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/xampp/htdocs/gamenect" ========================> "C:/xampp/htdocs/gamenect_tesi"
+	SEARCH[urlnd]  2:"http://localhost/gamenect" =======================> "http://localhost/gamenect_tesi"
+	CHUNK ACTION: CURRENT [search_replace][wp_woongwpmailsmtp_tasks_meta][0]
+
+EVALUATE TABLE: "wp_woongwpuf_subscribers"________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woongwpuf_transaction"________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woongyouzify_activity_polls_votes"____________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woongyouzify_bookmarks"_______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woongyouzify_hashtags"________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woongyouzify_hashtags_items"__________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woongyouzify_media"___________________________[ROWS:     3][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/xampp/htdocs/gamenect" ========================> "C:/xampp/htdocs/gamenect_tesi"
+	SEARCH[urlnd]  2:"http://localhost/gamenect" =======================> "http://localhost/gamenect_tesi"
+	CHUNK ACTION: CURRENT [search_replace][wp_woongyouzify_media][0]
+
+EVALUATE TABLE: "wp_woongyouzify_reviews"_________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woongyouzify_social_login_users"______________[ROWS:     0][PG:   0][SCAN:no columns  ]
+--------------------------------------
+SCANNED:	Tables:135 	|	 Rows:2688 	|	 Cells:21783 
+UPDATED:	Tables:11 	|	 Rows:413 	|	 Cells:444 
+ERRORS:		0 
+RUNTIME:	4.792100 sec
+CHUNK ACTION: CURRENT [rem_maintenance][][]
+
+====================================
+REMOVE MAINTENANCE MODE
+====================================
+MAINTENANCE MODE DISABLE
+CHUNK ACTION: CURRENT [config_update][][]
+SET CONFIG FILES
+Retained original entry wpconfig target:C:/xampp/htdocs/gamenect_tesi/wp-config.php
+New htaccess file created:C:/xampp/htdocs/gamenect_tesi/.htaccess
+
+====================================
+CONFIGURATION FILE UPDATES
+====================================
+	UPDATE ABSPATH "dirname(__FILE__) . '/'"
+	UPDATE DB_NAME ""gamenect_tesi""
+	UPDATE DB_USER "** OBSCURED **"
+	UPDATE DB_PASSWORD "** OBSCURED **"
+	UPDATE DB_HOST ""localhost""
+	UPDATE DB_CHARSET "utf8mb4"
+	UPDATE DB_COLLATE ""
+	WP CONFIG UPDATE WP_DEBUG "false"
+	
+*** UPDATED WP CONFIG FILE ***
+
+====================================
+HTACCESS UPDATE
+====================================
+
+WEB SERVER CONFIGURATION FILE UPDATED:
+- Preparing .htaccess file with basic setup.
+HTACCESS FILE - Successfully updated the .htaccess file setting.
+
+====================================
+INDEX.PHP UPDATE
+====================================
+INDEX.PHP updated with new blog header "dirname(__FILE__) . '/wp-blog-header.php'"
+
+CHUNK ACTION: CURRENT [gen_update][][]
+
+====================================
+GENERAL UPDATES
+====================================
+
+====================================
+MANAGE PLUGINS
+====================================
+CHUNK ACTION: CURRENT [gen_clean][][]
+
+====================================
+GENERAL CLEANUP
+====================================
+RESET ALL USERS SESSION TOKENS
+MIGRATION INFO SET
+
+STEP-3 CHUNK STOP @ 01:34:06 - RUNTIME: 5.0137 sec. 
+
+
+AJAX ACTION [webupdate] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\gamenect_tesi\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [webupdate] START
+CHUNK ACTION: CURRENT [create_admin][][]
+
+====================================
+RESET USERS PASSWORD
+====================================
+CHUNK ACTION: CURRENT [notice_test][][]
+
+====================================
+CHECK FOR INDEX.HTML
+====================================
+NO INDEX.HTML WAS FOUND
+
+====================================
+NOTICES TEST
+====================================
+No General Notices Found
+
+CHUNK ACTION: CURRENT [cleanup_tmp_files][][]
+
+====================================
+CLEANUP TMP FILES
+====================================
+CHUNK ACTION: CURRENT [set_files_perms][][]
+
+====================================
+SET PARAMS PERMISSION
+====================================
+\n SKIP FOLDER PERMISSION AFTER EXTRACTION
+CHUNK ACTION: CURRENT [final_report][][]
+
+====================================
+FINAL REPORT NOTICES
+====================================
+
+STEP-3 COMPLETE @ 01:34:07 - RUNTIME: 0.0920 sec. 
+
+
+AJAX ACTION [webupdate] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\gamenect_tesi\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [finalpre] START
+AJAX ACTION [finalpre] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\gamenect_tesi\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [finalafter] START
+AJAX ACTION [finalafter] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\gamenect_tesi\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+====================================
+FINAL REPORT NOTICES LIST
+====================================
+-----------------------
+[NOTICE] Warnings or notices on WordPress front-end tests!
+	SECTIONS: general
+	LONG MSG: SCRIPT FILE TEST: C:/xampp/htdocs/gamenect_tesi/index.php
+E_DEPRECATED Constant FILTER_SANITIZE_STRING is deprecated
+	FILE: C:\xampp\htdocs\gamenect_tesi\wp-content\plugins\youzify\includes\public\core\functions\general\youzify-general-functions.php[1486]
+	--- TRACE ---
+	FUNCTION: constant                      FILE: C:\xampp\htdocs\gamenect_tesi\wp-content\plugins\youzify\includes\public\core\functions\general\youzify-general-functions.php[1486]
+	FUNCTION: youzify_get_server_var        FILE: C:\xampp\htdocs\gamenect_tesi\wp-content\plugins\youzify\includes\public\core\functions\general\youzify-general-functions.php[1468]
+	FUNCTION: youzify_is_ajax_call          FILE: C:\xampp\htdocs\gamenect_tesi\wp-content\plugins\youzify\includes\public\core\functions\general\youzify-general-functions.php[984]
+	FUNCTION: youzify_template              FILE: C:\xampp\htdocs\gamenect_tesi\wp-includes\class-wp-hook.php[324]
+	CLASS___: WP_Hook->apply_filters        FILE: C:\xampp\htdocs\gamenect_tesi\wp-includes\plugin.php[205]
+	FUNCTION: apply_filters                 FILE: C:\xampp\htdocs\gamenect_tesi\wp-includes\template-loader.php[104]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\gamenect_tesi\wp-blog-header.php[19]
+	FUNCTION: require                       FILE: C:\xampp\htdocs\gamenect_tesi\index.php[17]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\gamenect_tesi\wp-content\wp_test_script_085c1a3-18123243.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base/ 
+
+
+====================================
+LOG-TIME[C:\xampp\htdocs\gamenect_tesi\dup-installer\ctrls\ctrl.base.php:227][DELTA:   0.44162]  MESSAGE:END RENDER PAGE
