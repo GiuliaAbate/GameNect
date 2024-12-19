@@ -6,15 +6,15 @@ module.exports = function( grunt ) {
 		// Get json file from the google-fonts API
 		http: {
 			'google-fonts-alpha': {
-				options: { url: 'https://www.googleapis.com/webfonts/v1/webfonts?sort=alpha&key=AIzaSyCDiOc36EIOmwdwspLG3LYwCg9avqC5YLs' },
+				options: { url: 'https://www.googleapis.com/webfonts/v1/webfonts?sort=alpha&key' },
 				dest: 'src/webfonts-alpha.json'
 			},
 			'google-fonts-popularity': {
-				options: { url: 'https://www.googleapis.com/webfonts/v1/webfonts?sort=popularity&key=AIzaSyCDiOc36EIOmwdwspLG3LYwCg9avqC5YLs' },
+				options: { url: 'https://www.googleapis.com/webfonts/v1/webfonts?sort=popularity&key' },
 				dest: 'src/webfonts-popularity.json'
 			},
 			'google-fonts-trending': {
-				options: { url: 'https://www.googleapis.com/webfonts/v1/webfonts?sort=trending&key=AIzaSyCDiOc36EIOmwdwspLG3LYwCg9avqC5YLs' },
+				options: { url: 'https://www.googleapis.com/webfonts/v1/webfonts?sort=trending&key' },
 				dest: 'src/webfonts-trending.json'
 			}
 		}
