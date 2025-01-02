@@ -1,4 +1,4 @@
-# GameNect- piattaforma social per i videogiocatori italiani
+# GameNect - Piattaforma social per i videogiocatori italiani
 
 ![Screenshot 2025-01-02 163839](https://github.com/user-attachments/assets/a634b617-6515-4805-95e4-e379072aad4f)
 
