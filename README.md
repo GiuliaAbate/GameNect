@@ -1,1 +1,1 @@
-# GameNect - new version# GameNect
+# GameNect - new version
