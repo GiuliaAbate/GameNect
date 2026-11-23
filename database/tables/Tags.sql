@@ -1,0 +1,6 @@
+CREATE TABLE [dbo].[Tags] (
+    [TagId] INT           IDENTITY (1, 1) NOT NULL,
+    [Name]  NVARCHAR (50) NOT NULL,
+    CONSTRAINT [PK_Tags] PRIMARY KEY CLUSTERED ([TagId] ASC),
+    CONSTRAINT [UQ_Tags_Name] UNIQUE NONCLUSTERED ([Name])
+);
