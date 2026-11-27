@@ -10,10 +10,11 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("28b3072e-2b67-46c7-a178-e387379ea6ad")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("GameNect.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ee2932253283db6884a4432c045a8ddb247c363f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1f565aeea672db6718a49010637fc673e9ab80e0")]
 [assembly: System.Reflection.AssemblyProductAttribute("GameNect.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GameNect.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
